@@ -1,0 +1,22 @@
+{
+  "name": "space-scrap-shooter-barebones",
+  "version": "0.1.0",
+  "description": "CSE 110 bare-bones scrap shooter (TypeScript + Konva)",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "konva": "^10.9.0"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.5"
+  },
+  "private": true,
+  "type": "module"
+}
